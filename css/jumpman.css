@@ -1,0 +1,27 @@
+h1 {
+  font-family: "Palatino", sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+body {
+  background: #FFFFE0;
+}
+
+#main {
+  text-align: center;
+  margin: auto;
+}
+
+#top {
+  text-align: center;
+  background: #E0E0FF;
+  padding: 20px;
+  margin: 0;
+}
+
+canvas {
+  border: 1px;
+}
