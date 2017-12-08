@@ -5,3 +5,16 @@ This is the tutorial I referred to occasionally.
 https://www.khanacademy.org/computing/computer-programming/programming-games-visualizations
 
 The page is live here: nulandgames.com/jumpman
+
+WEEK 2
+I learned how bad ProcessingJs is. Many of the functions that I needed, namely the camera() element, simply do not work. After hours of struggling with the program, I called it a day. I forgot to upload anything to github, as I A) had nothing to show for a weeks work, and B) completely forgot.
+
+WEEK 3 - The week of compromise
+After last weeks abject failure, I knew that I needed to take the game in a new direction. As such, the game now has new rules, and what I am trying to do is now different. The game is now focused around collecting coins that bounce around the screen, while also avoiding the "spikes", which instantly kill the player. The spikes move at a tenth of the speed of the coins, so it should be easy.
+
+Added: -Boundaries! The player can no longer leave the screen. Rip Jum's freedom
+       -Coins! There are now coins! The total of coins that you have is listed in the top left. They bounce whenever they hit a wall, and have a max and min speed!
+       -Spikes! Small squares, that on contact, will end your game! They also bounce, and are a nice red to help the player see where they are!
+       -Win and loss conditions! Collect 100 coins and you win! Get hit with a spike, and die! Jum is very fragile, you know. Comes with being a skeleton.
+
+To do: Make it pretty. The CSS is... lacking.
